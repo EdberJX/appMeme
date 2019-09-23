@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 export default props => {
   
-  const { id,name, url } = props.meme; //id
-  // props.handleMeme(id)
+  const { id,name, url } = props.meme;
+
   return (
     <div className="grids">
         <div className="card ">

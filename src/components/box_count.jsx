@@ -12,7 +12,7 @@ export default class BoxCount extends React.Component {
     return (
       <div className="row">
         <div className="input-field col s12 m6">
-          <input type="text" name="text" onChange={this.onInputChange} />
+          <input type="text" name="text" onChange={this.onInputChange} required />
           <label htmlFor="last_name">Texto</label>
         </div>
       </div>
